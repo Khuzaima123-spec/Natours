@@ -1,7 +1,6 @@
 .btn {
   &:link,
   &:visited {
-    border: 1px solid $color-white;
     border-radius: 10rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -33,5 +32,23 @@
     outline: none;
     transform: translateY(-1rem);
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+}
+.section-about-btn {
+  color: $color-primary;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-bottom: 1px solid $color-primary;
+  padding: 3px;
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.15);
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
+    transform: translateY(0);
   }
 }

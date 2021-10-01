@@ -10,8 +10,11 @@ html {
 }
 body {
   padding: 3rem;
-  overflow: hidden;
-  color: $color-white;
-  line-height: 1.7;
+  overflow-x: hidden;
   box-sizing: border-box;
+  color: $color-grey-dark;
+}
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }
