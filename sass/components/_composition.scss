@@ -14,10 +14,11 @@
       z-index: 1;
       box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
     }
+    &:not(:hover) {
+      transform: scale(0.95);
+    }
   }
-  &:hover &__photo:not(:hover) {
-    transform: scale(0.95);
-  }
+
   // composition:hover composition__photo:not(:hover)
   &-img1 {
     left: 0;
